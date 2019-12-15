@@ -65,16 +65,22 @@ h3 {
 #portfolioTit {
     width: 130px;
     background-color: rgb(217, 255, 0);
+    position: relative;
+    top: 30px;
 }
 
 #aboutTit {
     width: 140px;
     background-color: rgb(0, 204, 255);
+    position: relative;
+    top: 30px;
 }
 
 #contactTit {
     width: 125px;
     background-color: rgb(255, 0, 21);
+    position: relative;
+    top: 30px;
 }
 
 .nav-butts {
@@ -128,6 +134,7 @@ a {
     border-radius: 15px;
     min-width: 300px;
     width: 97%;
+    top: 20px;
 }
 
 .portfolio-content {
@@ -142,22 +149,28 @@ a {
 }
 
 .port {
-    height: 250px;
-    width: 250px;
+    height: 240px;
+    width: 240px;
+    border: 3px solid rgb(214, 0, 0);
   }
 
 .content {
     border: 1px solid rgb(214, 0, 0);
+    background-color: rgb(20,20,20);
     border-radius: 15px;
-    padding: 15px;
+    padding: 20px;
+    padding-top: 35px;
     width: 100%;
+    min-width: 300px;
+
 }
 
 #profileimage {
-    width: 300px;
+    width: 280px;
     float: left;
-    padding: 0px 15px 10px 0;
-    margin-top: 20px;
+    padding: 0px 15px 0px 15px;
+    margin-left: 20px;
+    transform: rotate(90deg);
 
 }
 
@@ -239,7 +252,8 @@ input[type=text], select, textarea {
 }
 
 
-@media only screen and (min-device-width: 375px) 
+
+@media only screen and (min-device-width: 320px) 
 and (max-device-width: 667px)  {
     .nav-butts {
         flex-direction: column;
@@ -248,8 +262,11 @@ and (max-device-width: 667px)  {
     li {
         border: none;
     }
-    body {
-        width: min-content;
+    #profileimage {
+      margin-left: 0;
+    }
+    .hidden {
+        display: block;
     }
     
 }
