@@ -17,7 +17,7 @@ h1 {
     flex: 1 0 0;
     padding: 20px 20px;
     font-family: 'Jura', sans-serif;
-    font-size: 40px;
+    font-size: 42px;
     text-align: center;
 }
 
@@ -154,6 +154,10 @@ a {
     border: 3px solid rgb(214, 0, 0);
   }
 
+  .port:hover {
+      border: 3px solid red;
+  }
+
 .content {
     border: 1px solid rgb(214, 0, 0);
     background-color: rgb(20,20,20);
@@ -249,6 +253,10 @@ input[type=text], select, textarea {
     li {
         border: none;
     }
+    #profileimage {
+        transform: rotate(90deg);
+        margin-bottom: 10px;
+    }
 }
 
 
@@ -267,6 +275,15 @@ and (max-device-width: 667px)  {
     }
     .hidden {
         display: block;
+        width: 210px;
+    }
+    h3 {
+        font-size: x-large;
+    }
+    .banner {
+        width: 220px;
+        left: -20px;
+        font-size: large;
     }
     
 }
