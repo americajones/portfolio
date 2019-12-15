@@ -1,0 +1,436 @@
+body {
+    background-color: rgb(30, 30, 30);
+    color: #E8E8E8;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+#maincontent {
+    margin:20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+h1 {
+    flex: 1 0 0;
+    padding: 20px 20px;
+    font-family: 'Jura', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+}
+
+#header-text {
+    font-family: 'Jura', sans-serif;
+    
+}
+
+h2 {
+    font-family: 'Jura', sans-serif;
+    font-size: 30px;
+    color: rgb(36, 36, 36);
+    padding: 10px;
+    margin: 15px 15px 15px 35px;
+    text-align: center;
+}
+
+.banner {
+    position: relative;
+    top: -80px;
+    background-color: rgb(217, 255, 0);
+    z-index: 2;
+    color: rgb(36, 36, 36);
+    width: 200px;
+}
+
+h3 {
+    font-size: large;
+    padding: 10px;
+    text-align: center;
+}
+
+.hidden {
+    width: 190px;
+    display: none;
+    padding: 5px;
+    position: absolute;
+    background-color: rgb(217, 255, 0);
+}
+
+#portfolioTit {
+    width: 130px;
+    background-color: rgb(217, 255, 0);
+}
+
+#aboutTit {
+    width: 140px;
+    background-color: rgb(0, 204, 255);
+}
+
+#contactTit {
+    width: 125px;
+    background-color: rgb(255, 0, 21);
+}
+
+.nav-butts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    font-size: 16px;
+    float: right;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+li {
+    padding:10px;
+    height: 25px;
+    text-align: center;
+    color: #E8E8E8;
+    border-right: 1px solid rgb(214, 0, 0);
+}
+
+
+a:hover{
+    text-decoration: underline;
+color: rgb(208, 255, 0);
+}
+
+
+li:last-child {
+    border-right: none;
+  }
+
+a {
+    color: #E8E8E8;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#top {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    position: relative;
+    padding:15px;
+    border: 1px solid red;
+    background-color: rgb(20,20,20);
+    border-radius: 15px;
+    min-width: 300px;
+    width: 97%;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.portfolio-set {
+   font-family: 'Jura', sans-serif;
+   padding: 10px;
+}
+
+.port {
+    height: 250px;
+    width: 250px;
+  }
+
+.content {
+    border: 1px solid rgb(214, 0, 0);
+    border-radius: 15px;
+    padding: 15px;
+    width: 100%;
+}
+
+#profileimage {
+    width: 300px;
+    float: left;
+    padding: 0px 15px 10px 0;
+    margin-top: 20px;
+
+}
+
+#div1 {
+    background-color: rgb(0, 204, 255);
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top:23%;
+    left: 10%;
+    z-index: 1;
+}
+
+#div2 {
+    background-color: rgb(200, 255, 0);
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 15%;
+    left: -8%;
+    z-index: 2;
+}
+
+#div3 {
+    background-color: rgb(255, 0, 21);
+    height: 40px;
+    width: 40px;
+    z-index: 0;
+    position: relative;
+    left: 2%;
+    top: -5%;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    background-color: rgb(66, 66, 66);
+    color:whitesmoke;
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical  Allow the user to vertically resize the textarea (not horizontally) 
+  }
+  input[type=submit] {
+    background-color: rgb(197, 24, 33);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  ::placeholder {
+      color: rgb(109, 109, 109);
+  }
+
+  footer {
+    border-top:1px solid rgb(66, 66, 66);
+    font-size: 12px;
+    font-family: 'Jura';
+    color: rgb(180, 180, 180);
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    clear: all;
+}
+
+@media all and (max-width: 700px) {
+    .nav-butts {
+        flex-direction: column;
+        border-left: 1px solid rgb(214, 0, 0);
+    }
+    li {
+        border: none;
+    }
+}
+
+
+@media only screen and (min-device-width: 375px) 
+and (max-device-width: 667px)  {
+    .nav-butts {
+        flex-direction: column;
+        border-left: 1px solid rgb(214, 0, 0);
+    }
+    li {
+        border: none;
+    }
+    body {
+        width: min-content;
+    }
+    
+}
+
+
+
+
+/* 
+body {
+        background-image: url(../images/hotel-wallpaper-black.png);
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        color:#777777;
+        margin-top:70px;
+}
+
+#top {
+    background-color: white;
+    height: 90px;
+    z-index: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    clear: both;
+    border-bottom: 2px solid #ccc;
+}
+
+h1 {
+    padding: 20px;
+    font: 50px/1.4em Jura,sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+    border-right: 1px solid #bbb;
+    float: left;
+}
+li:last-child {
+    border-right: none;
+  }
+  
+
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #cccccc
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#maincontent {
+    width: 960px;
+    align-self: center;
+    flex: 1 0 auto;
+    clear: both;
+    padding: 30px;
+}
+header {
+    background-color:#4aaaa5;
+    padding:-15px;
+    float: left;
+    z-index: 2;
+    margin-left: 195px;
+    color: white;
+    height: 90px;
+
+}
+
+head {
+    background-color: #ffffff;
+    border: #cccccc;
+    height: 30px;
+}
+
+
+.buttons {
+    float: right;
+    padding: 20px;
+    position: relative;
+    text-align: right;
+    display:inline;
+    right: 200px;
+
+}
+
+.content {
+    top: 100px;
+    background-color: white;
+    padding:0 30px 30px;
+    color: #777777;
+}
+
+#profileimage {
+    width: 300px;
+    float: left;
+    padding: 0px 15px 10px 0;
+    margin-top: 20px;
+
+}
+footer {
+    background-color: #666666;
+    border-top:8px solid #4aaaa5;
+    font-size: x-small;
+    color: white;
+    bottom: 0;
+    flex-shrink: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    clear: all;
+}
+
+html, body {
+    height: 100%;
+}
+
+contact stuff
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical  Allow the user to vertically resize the textarea (not horizontally) 
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  ::placeholder {
+      color: lightgray;
+  }
+
+  /*portfolio
+
+  .portfolio content {
+      width: 960px;
+      background-color: white;
+      height: 600px;
+  }
+
+  #portfolio {
+      display: grid;
+      grid-template-columns: 200px 200px;
+      grid-gap: 20px;
+      width: 200px;
+        
+  }
+
+
+
+  .port {
+      width: 200px;
+      padding: 30px;
+
+  }
+
+  .port2 {
+      transform: rotate(180deg);
+  }
+
+  .port3 {
+      transform: rotate(-90deg);
+  }
+
+  .port5 {
+      transform: rotate(90deg);
+  } */
