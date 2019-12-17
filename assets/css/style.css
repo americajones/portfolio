@@ -107,18 +107,23 @@ li {
 
 a:hover{
     text-decoration: underline;
-color: rgb(208, 255, 0);
+    color: rgb(208, 255, 0);
 }
 
 
 li:last-child {
     border-right: none;
-  }
+}
 
 a {
     color: #E8E8E8;
     cursor: pointer;
     text-decoration: none;
+}
+
+span {
+    display: block;
+    color: rgb(0, 204, 255);
 }
 
 #top {
@@ -156,6 +161,11 @@ a {
 
   .port:hover {
       border: 3px solid red;
+  }
+
+  .github {
+      position: relative;
+      top:-30px;
   }
 
 .content {
