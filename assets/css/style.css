@@ -182,9 +182,8 @@ span {
 #profileimage {
     width: 280px;
     float: left;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 15px 8px 15px;
     margin-left: 20px;
-    transform: rotate(90deg);
 
 }
 
@@ -264,7 +263,6 @@ input[type=text], select, textarea {
         border: none;
     }
     #profileimage {
-        transform: rotate(90deg);
         margin-bottom: 10px;
     }
 }

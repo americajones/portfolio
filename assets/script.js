@@ -13,3 +13,18 @@ $("#port3").hover(function(){
 }, function(){
     $("#hidden3").css("display", "none")
 })
+$("#port4").hover(function(){
+    $("#hidden4").css("display", "block")
+}, function(){
+    $("#hidden4").css("display", "none")
+})
+$("#port5").hover(function(){
+    $("#hidden5").css("display", "block")
+}, function(){
+    $("#hidden5").css("display", "none")
+})
+$("#port6").hover(function(){
+    $("#hidden6").css("display", "block")
+}, function(){
+    $("#hidden6").css("display", "none")
+})
