@@ -37,28 +37,23 @@
         <div class="content">
 
             <div class="container">
-                <form method= "post" name= "myemailform" action="form-to-email.php">
+                <form method= "post" name= "myemailform" action="https://formspree.io/xyypzazg">
 
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" placeholder="Johan Johanssen">
 
                     <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="jojohan@jojo.com">
+                    <input type="text" id="email" name="_replyto" placeholder="jojohan@jojo.com">
 
 
                     <label for="message">Message</label>
                     <textarea id="message" name="message" placeholder="Write something.."
                         style="height:200px"></textarea>
 
-                    <button type="submit" name="submit" value="submit" id="submit-butt"> Send mail </button>
-
+                    <button type="submit" name="submit" value="Send" id="submit-butt"> Send mail </button>
+                    <input type="hidden" name="_next" value="https://americajones.github.io/portfolio/" />
                 </form>
-                <script language="JavaScript">
-                    var frmvalidator  = new Validator("myemailform");
-                    frmvalidator.addValidation("name","req","Please provide your name"); 
-                    frmvalidator.addValidation("email","req","Please provide your email"); 
-                    frmvalidator.addValidation("email","email","Please enter a valid email address"); 
-                    </script>
+
             
         </div>
         </div>
