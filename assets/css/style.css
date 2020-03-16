@@ -52,10 +52,12 @@ h3 {
     font-size: large;
     padding: 10px;
     text-align: center;
+    font-weight: bold;
 }
 
 .hidden {
     width: 190px;
+    font-style: oblique;
     display: none;
     padding: 5px;
     position: absolute;
@@ -189,9 +191,11 @@ span {
 
 #submit-butt {
     border-style: none;
+    float: right;
     padding: 10px;
     background-color: blue;
-    border-radius: 8px;
+    border-radius: 4px;
+    color: white;
 }
 
 #div1 {
