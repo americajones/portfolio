@@ -28,3 +28,8 @@ $("#port6").hover(function(){
 }, function(){
     $("#hidden6").css("display", "none")
 })
+$("#port7").hover(function(){
+    $("#hidden7").css("display", "block")
+}, function(){
+    $("#hidden7").css("display", "none")
+})
