@@ -44,9 +44,9 @@ h2 {
 .banner {
   position: relative;
   top: -80px;
-  background-color: rgb(217, 255, 0);
+  background-color: rgb(255, 69, 69);
   z-index: 2;
-  color: rgb(36, 36, 36);
+  color: rgb(0, 0, 0);
   width: 200px;
 }
 
@@ -55,16 +55,20 @@ h3 {
   padding: 10px;
   text-align: center;
   font-weight: bold;
-  color: rgb(75, 75, 75);
+  color: rgb(0, 0, 0);
 }
 
 .hidden {
   width: 190px;
-  font-style: oblique;
   display: none;
   padding: 5px;
   position: absolute;
-  background-color: rgb(217, 255, 0);
+  background-color: rgb(255, 69, 69);
+}
+
+p.shh {
+  color: rgb(121, 121, 121);
+  padding: 3px;
 }
 
 #portfolioTit {
@@ -111,7 +115,7 @@ li {
 
 a:hover {
   text-decoration: underline;
-  color: rgb(208, 255, 0);
+  color: rgb(255, 0, 0);
 }
 
 li:last-child {
