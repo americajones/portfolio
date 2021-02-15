@@ -1,309 +1,299 @@
 body {
-    background-color: rgb(30, 30, 30);
-    color: #E8E8E8;
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 900px;
-    margin: auto;
+  background-color: rgb(30, 30, 30);
+  color: #e8e8e8;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 99vh;
 }
 
 #maincontent {
-    margin:20px;
-    display: flex;
-    flex-flow: row wrap;
-    align-content: space-between;
+  margin: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
 }
 
 h1 {
-    flex: 1 0 0;
-    padding: 20px 20px;
-    font-family: 'Jura', sans-serif;
-    font-size: 42px;
-    text-align: center;
+  flex: 1 0 0;
+  padding: 20px 20px;
+  font-family: "Jura", sans-serif;
+  font-size: 42px;
+  text-align: center;
 }
 
 header {
-    display: flex;
+  display: flex;
 }
 
 #header-text {
-    font-family: 'Jura', sans-serif;
-    
+  font-family: "Jura", sans-serif;
 }
 
 h2 {
-    font-family: 'Jura', sans-serif;
-    font-size: 30px;
-    color: rgb(36, 36, 36);
-    padding: 10px;
-    margin: 15px 15px 15px 35px;
-    text-align: center;
+  font-family: "Jura", sans-serif;
+  font-size: 30px;
+  color: rgb(36, 36, 36);
+  padding: 10px;
+  margin: 15px 15px 15px 35px;
+  text-align: center;
 }
 
 .banner {
-    position: relative;
-    top: -80px;
-    background-color: rgb(217, 255, 0);
-    z-index: 2;
-    color: rgb(36, 36, 36);
-    width: 200px;
+  position: relative;
+  top: -80px;
+  background-color: rgb(217, 255, 0);
+  z-index: 2;
+  color: rgb(36, 36, 36);
+  width: 200px;
 }
 
 h3 {
-    font-size: large;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    color: rgb(75, 75, 75);
+  font-size: large;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(75, 75, 75);
 }
 
 .hidden {
-    width: 190px;
-    font-style: oblique;
-    display: none;
-    padding: 5px;
-    position: absolute;
-    background-color: rgb(217, 255, 0);
+  width: 190px;
+  font-style: oblique;
+  display: none;
+  padding: 5px;
+  position: absolute;
+  background-color: rgb(217, 255, 0);
 }
 
 #portfolioTit {
-    width: 130px;
-    background-color: rgb(217, 255, 0);
-    position: relative;
-    top: 30px;
+  width: 130px;
+  background-color: rgb(217, 255, 0);
+  position: relative;
+  top: 30px;
 }
 
 #aboutTit {
-    width: 140px;
-    background-color: rgb(0, 204, 255);
-    position: relative;
-    top: 30px;
+  width: 140px;
+  background-color: rgb(0, 204, 255);
+  position: relative;
+  top: 30px;
 }
 
 #contactTit {
-    width: 125px;
-    background-color: rgb(255, 0, 21);
-    position: relative;
-    top: 30px;
+  width: 125px;
+  background-color: rgb(255, 0, 21);
+  position: relative;
+  top: 30px;
 }
 
 .nav-butts {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    font-size: 16px;
-    float: right;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  font-size: 16px;
+  float: right;
 }
 
 .break {
-    flex-basis: 100%;
-    height: 0;
+  flex-basis: 100%;
+  height: 0;
 }
 
 li {
-    padding:10px;
-    height: 25px;
-    text-align: center;
-    color: #E8E8E8;
-    border-right: 1px solid rgb(214, 0, 0);
+  padding: 10px;
+  height: 25px;
+  text-align: center;
+  color: #e8e8e8;
+  border-right: 1px solid rgb(214, 0, 0);
 }
 
-
-a:hover{
-    text-decoration: underline;
-    color: rgb(208, 255, 0);
+a:hover {
+  text-decoration: underline;
+  color: rgb(208, 255, 0);
 }
-
 
 li:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 a {
-    color: #E8E8E8;
-    cursor: pointer;
-    text-decoration: none;
+  color: #e8e8e8;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 span {
-    display: block;
-    color: rgb(0, 204, 255);
+  display: block;
+  color: rgb(0, 204, 255);
 }
 
 #top {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: auto;
-    position: relative;
-    padding:15px;
-    border: 1px solid red;
-    background-color: rgb(20,20,20);
-    border-radius: 15px;
-    min-width: 300px;
-    width: 97%;
-    top: 20px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  position: relative;
+  padding: 15px;
+  border: 1px solid red;
+  background-color: rgb(20, 20, 20);
+  border-radius: 2px;
+  min-width: 300px;
+  width: 97%;
+  top: 20px;
 }
 
 .portfolio-content {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .portfolio-set {
-   font-family: 'Jura', sans-serif;
-   padding: 10px;
+  font-family: "Jura", sans-serif;
+  padding: 10px;
 }
 
 .port {
-    height: 240px;
-    width: 240px;
-    border: 3px solid rgb(214, 0, 0);
-  }
+  height: 240px;
+  width: 240px;
+}
 
-  .port:hover {
-      border: 3px solid red;
-  }
-
-  .github {
-      position: relative;
-      top:-30px;
-  }
+.github {
+  position: relative;
+  top: -30px;
+}
 
 .content {
-    border: 1px solid rgb(214, 0, 0);
-    background-color: rgb(20,20,20);
-    border-radius: 15px;
-    padding: 20px;
-    padding-top: 35px;
-    width: 100%;
-    min-width: 300px;
-
+  border: 1px solid rgb(214, 0, 0);
+  background-color: rgb(20, 20, 20);
+  border-radius: 2px;
+  padding: 20px;
+  padding-top: 35px;
+  width: 100%;
+  min-width: 300px;
 }
 
 #profileimage {
-    width: 280px;
-    float: left;
-    padding: 0px 15px 8px 15px;
-    margin-left: 20px;
-
+  width: 280px;
+  float: left;
+  padding: 20px;
+  margin-left: 20px;
 }
 
 #submit-butt {
-    border-style: none;
-    float: right;
-    padding: 10px;
-    background-color: blue;
-    border-radius: 4px;
-    color: white;
+  border-style: none;
+  float: right;
+  padding: 10px;
+  background-color: rgb(0, 204, 255);
+  border-radius: 2px;
 }
 
 #div1 {
-    background-color: rgb(0, 204, 255);
-    height: 30px;
-    width: 30px;
-    position: relative;
-    top:23%;
-    left: 10%;
-    z-index: 1;
+  background-color: rgb(0, 204, 255);
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 23%;
+  left: 10%;
+  z-index: 1;
 }
 
 #div2 {
-    background-color: rgb(200, 255, 0);
-    height: 20px;
-    width: 20px;
-    position: relative;
-    top: 15%;
-    left: -8%;
-    z-index: 2;
+  background-color: rgb(200, 255, 0);
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 15%;
+  left: -8%;
+  z-index: 2;
 }
 
 #div3 {
-    background-color: rgb(255, 0, 21);
-    height: 40px;
-    width: 40px;
-    z-index: 0;
-    position: relative;
-    left: 2%;
-    top: -5%;
+  background-color: rgb(255, 0, 21);
+  height: 40px;
+  width: 40px;
+  z-index: 0;
+  position: relative;
+  left: 2%;
+  top: -5%;
 }
 
-input[type=text], select, textarea {
-    width: 100%; 
-    background-color: rgb(66, 66, 66);
-    color:whitesmoke;
-    padding: 12px;  
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box;
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical  Allow the user to vertically resize the textarea (not horizontally) 
-  }
-  input[type=submit] {
-    background-color: rgb(197, 24, 33);
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  ::placeholder {
-      color: rgb(109, 109, 109);
-  }
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  background-color: rgb(66, 66, 66);
+  color: whitesmoke;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical Allow the user to vertically resize the textarea
+    (not horizontally);
+}
+input[type="submit"] {
+  background-color: rgb(197, 24, 33);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+::placeholder {
+  color: rgb(109, 109, 109);
+}
 
-  footer {
-    border-top:1px solid rgb(66, 66, 66);
-    font-size: 12px;
-    font-family: 'Jura';
-    color: rgb(180, 180, 180);
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    width: 75%;
-    margin: auto;
-    clear: all;
+footer {
+  border-top: 1px solid rgb(66, 66, 66);
+  font-size: 12px;
+  font-family: "Jura";
+  color: rgb(180, 180, 180);
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: auto;
 }
 
 @media all and (max-width: 700px) {
-    .nav-butts {
-        flex-direction: column;
-        border-left: 1px solid rgb(214, 0, 0);
-    }
-    li {
-        border: none;
-    }
-    #profileimage {
-        margin-bottom: 10px;
-    }
+  .nav-butts {
+    flex-direction: column;
+    border-left: 1px solid rgb(214, 0, 0);
+  }
+  li {
+    border: none;
+  }
+  #profileimage {
+    margin-bottom: 10px;
+  }
 }
 
-
-
-@media only screen and (min-device-width: 320px) 
-and (max-device-width: 667px)  {
-    .nav-butts {
-        flex-direction: column;
-        border-left: 1px solid rgb(214, 0, 0);
-    }
-    li {
-        border: none;
-    }
-    #profileimage {
-      margin-left: 0;
-    }
-    .hidden {
-        display: block;
-        width: 210px;
-    }
-    h3 {
-        font-size: x-large;
-    }
-    .banner {
-        width: 220px;
-        left: -20px;
-        font-size: large;
-    }
-    
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
+  .nav-butts {
+    flex-direction: column;
+    border-left: 1px solid rgb(214, 0, 0);
+  }
+  li {
+    border: none;
+  }
+  #profileimage {
+    margin-left: 0;
+  }
+  .hidden {
+    display: block;
+    width: 210px;
+  }
+  h3 {
+    font-size: x-large;
+  }
+  .banner {
+    width: 220px;
+    left: -20px;
+    font-size: large;
+  }
 }

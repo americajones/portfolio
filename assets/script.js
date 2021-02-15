@@ -33,3 +33,8 @@ $("#port7").hover(function(){
 }, function(){
     $("#hidden7").css("display", "none")
 })
+$("#portK").hover(function(){
+    $("#hiddenK").css("display", "block")
+}, function(){
+    $("#hiddenK").css("display", "none")
+})
